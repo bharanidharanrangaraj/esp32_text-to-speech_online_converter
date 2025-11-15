@@ -42,7 +42,11 @@ PAM8403 → Speaker
 | R+      | +       |
 | R-      | -       |
 
-![Wiring Diagram](Images & Videos/wiring_diagram.png)
+<p align="center">
+    <img src="Images%20&%20Videos/wiring_diagram.png" width="400">
+    <p align="center">Breadboard Connection</p>
+  </a>
+</p>
 
 ## Installing the Talkie Library
 
