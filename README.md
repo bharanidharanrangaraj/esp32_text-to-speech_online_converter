@@ -42,7 +42,7 @@ PAM8403 → Speaker
 | R+      | +       |
 | R-      | -       |
 
-![Wiring Diagram](images/wiring_diagram.png)
+![Wiring Diagram](Images & Videos/wiring_diagram.png)
 
 ## Installing the Talkie Library
 
