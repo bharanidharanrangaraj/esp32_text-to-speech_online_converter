@@ -26,6 +26,12 @@ The ESP32 reads text from the Serial Monitor, breaks it into words, matches each
 | Jumper Wires            | —        |
 | USB Cable               | 1        |
 
+<p align="center">
+    <img src="Images%20&%20Videos/components_used_esp32_offline_tts.png" width="400">
+    <p align="center">Components used</p>
+  </a>
+</p>
+
 ## Hardware Wiring
 
 ESP32 → PAM8403
@@ -42,7 +48,11 @@ PAM8403 → Speaker
 | R+      | +       |
 | R-      | -       |
 
-![Wiring Diagram](images/wiring_diagram.png)
+<p align="center">
+    <img src="Images%20&%20Videos/wiring_diagram_of_esp32_tts_converterpng.png" width="400">
+    <p align="center">Circuit diagram</p>
+  </a>
+</p>
 
 ## Installing the Talkie Library
 
@@ -81,23 +91,17 @@ Add it to the mapping table:
 You can extend the dictionary as much as flash memory allows.
 ## Troubleshooting
 **Distorted Audio**
-
-Add 100–220Ω resistor between GPIO25 and amplifier input
-
-Reduce amplifier gain
+- Add 100–220Ω resistor between GPIO25 and amplifier input
+- Reduce amplifier gain
 
 **Very Low Volume**
-
-Check PAM8403 wiring
-
-Ensure ESP32 DAC pin is GPIO25 or GPIO26
+- Check PAM8403 wiring
+- Ensure ESP32 DAC pin is GPIO25 or GPIO26
 
 **"Word not found" Error**
+- The word is not in your vocabulary mapping table
+- Add the LPC entry manually
 
-The word is not in your vocabulary mapping table
-
-Add the LPC entry manually
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
