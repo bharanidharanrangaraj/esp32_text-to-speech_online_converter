@@ -1,5 +1,5 @@
 
-# ESP32 Text to Speech Offline Converter
+# How to Convert Text to Speech using ESP32 Offline
 
 This project implements a fully offline Text-to-Speech (TTS) system using the ESP32 microcontroller and the Talkie LPC speech synthesis library.
 The ESP32 reads text from the Serial Monitor, breaks it into words, matches each word with an LPC entry, and generates audible speech through its DAC output. Paired with a PAM8403 amplifier and a small speaker, the system becomes a compact and reliable voice output engine suitable for embedded applications.
