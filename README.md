@@ -1,6 +1,11 @@
 
 # Build an Offline ESP32 Text-to-Speech System
 
+<p align="center">
+    <img src="Images%20&%20Videos/title_image_esp32_text_to_speech_online_converter.png" width="400">
+  </a>
+</p>
+
 This project implements a fully offline Text-to-Speech (TTS) system using the ESP32 microcontroller and the Talkie LPC speech synthesis library.
 The ESP32 reads text from the Serial Monitor, breaks it into words, matches each word with an LPC entry, and generates audible speech through its DAC output. Paired with a PAM8403 amplifier and a small speaker, the system becomes a compact and reliable voice output engine suitable for embedded applications.
 
@@ -56,8 +61,7 @@ PAM8403 → Speaker
 
 ## Installing the Talkie Library
 
-Download the Talkie library from GitHub:
-https://github.com/ArminJo/Talkie
+Download the Talkie library from <a href="https://github.com/ArminJo/Talkie" target="_blank">**Github**</a>
 
 Install using:
 
