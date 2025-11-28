@@ -102,6 +102,8 @@ You can extend the dictionary as much as flash memory allows.
 - The word is not in your vocabulary mapping table
 - Add the LPC entry manually
 
+The project is published in Circuit digest website, if needed can visit and learn more: [ESP32 Text-to-Speech Offline System](https://circuitdigest.com/microcontroller-projects/esp32-text-to-speech-offline-system)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
